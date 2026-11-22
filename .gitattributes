@@ -1,0 +1,13 @@
+# Normalize text to LF in the repository and working tree.
+* text=auto eol=lf
+
+# Windows batch scripts require CRLF on checkout.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Keep image assets binary.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
